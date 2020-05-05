@@ -1,0 +1,9 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "103"
+
+[markup.goldmark.renderer]
+    hardWraps = false
+    unsafe = true
+    xhtml = false
+
