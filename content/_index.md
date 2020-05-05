@@ -3,9 +3,9 @@ title: Introduction
 type: docs
 ---
 
-# Acerbo datus maxime
+# Home
 
-{{< columns >}}
+<!-- {{< columns >}}
 ## Astris ipse furtiva
 
 Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
@@ -14,28 +14,25 @@ modo arsit? Utinam rapta fiducia valuere litora _adicit cursu_, ad facies
 
 <--->
 
-## Suis quot vota
+<!-- ## Suis quot vota
 
 Ea _furtique_ risere fratres edidit terrae magis. Colla tam mihi tenebat:
 miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
 nunc! Fragosis suae dextra geruntur functus vulgata.
-{{< /columns >}}
+{{< /columns >}} --> 
 
+## What is this?
+Ideally, this would be the place for a quick reference on definitions, "how to's", and examples. Think of it as a cookbook, it shows you how to do something step-by-step (no steps skipped) I will try my best to update this site after each lecture. If you would like to contribute, you are more than welcome to!
 
-## Tempora nisi nunc
+You can expect to see:
+- Clean and concise notes
+- Helpful websites
+- Tutorials
 
-Lorem **markdownum** emicat gestu. Cannis sol pressit ducta. **Est** Idaei,
-tremens ausim se tutaeque, illi ulnis hausit, sed, lumina cutem. Quae avis
-sequens!
+## What this is not
+This is not a Piazza! This is simply a documentation of what you learned from lecture.
 
-    var panel = ram_design;
-    if (backup + system) {
-        file.readPoint = network_native;
-        sidebar_engine_device(cell_tftp_raster,
-                dual_login_paper.adf_vci.application_reader_design(
-                graphicsNvramCdma, lpi_footer_snmp, integer_model));
-    }
+## Contribute!
+The notes are written in markdown and we are using [KaTex](https://katex.org/) for mathematical expressions.
 
-## Locis suis novi cum suoque decidit eadem
-
-Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab?
+If you'd like to contribute, you can begin by cloning this repo.

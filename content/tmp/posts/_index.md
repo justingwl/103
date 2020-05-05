@@ -1,7 +1,8 @@
 ---
 menu:
   after:
-    name: blog
+    name: 
     weight: 5
-title: Blog
+title: 
+bookhidden: true
 ---

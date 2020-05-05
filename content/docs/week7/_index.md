@@ -1,7 +1,5 @@
 ---
-bookhidden: true
-bookCollapseSection: true
-weight: 20
+bookCollapseSection: false
 ---
 
 # Collapsed Level of Menu
