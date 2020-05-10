@@ -6,7 +6,7 @@
 
 |                |                          |
 |----------------|-------------------------------|-----------------------------|
-|a where {{< katex display >}} ( a where \in \Sigma ) {{< /katex >}}|`matches a`            
+|a where {{< katex >}} ( a \in \Sigma ) {{< /katex >}}|`matches a`            
 |$\varepsilon$|`matches an empty string`|
 |$\varnothing$|`matches ` $R_1$ or $R_2$ |
 |$R_1$$R_2$|`matches ` $R_1$$R_2$ |
