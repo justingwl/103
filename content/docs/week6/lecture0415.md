@@ -2,6 +2,8 @@
 
 ## Definition
 ### A regular expression over $\Sigma$ is an expression of the form:
+
+{{< katex display >}}
 |                |                          |
 |----------------|-------------------------------|-----------------------------|
 |a where (a $\in$ $\Sigma$)|`matches a`            
@@ -18,6 +20,7 @@
 |$(a$ \| $b)^*$|`matches any string consisting of a's or b's {epsilon, a, b, ab, ba, abab, ...}`|
 |$a^*b^*$|`matches zero of more a's followed by zero or more b's {epsilon, a, b, aabb, abb, ..}`|
 |$\epsilon$ \| ($z$($z^*$))|`matches nothing or, 1 or more z's ` NOTE: The procedure is to first perform the star, then concatenate the z's, and finally union |
+{{< /katex >}}
 
 
 
