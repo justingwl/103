@@ -7,7 +7,7 @@
 |                |                          |
 |----------------|-------------------------------|-----------------------------|
 |a where {{< katex >}} ( a \in \Sigma ) {{< /katex >}}|`matches a`            
-|{{< katex >}}$\varepsilon${{< /katex >}}|`matches an empty string`|
+|{{< katex >}} \varepsilon {{< /katex >}}|`matches an empty string`|
 |$\varnothing$|`matches ` $R_1$ or $R_2$ |
 |$R_1$$R_2$|`matches ` $R_1$$R_2$ |
 |$R^*$ where $R$ is a regular expression|`matches` $R^*$|
