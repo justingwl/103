@@ -1,25 +1,25 @@
 # 2020 04 15: Basics of Regular Expressions
 
 ## Definition
-### A regular expression over $\Sigma$ is an expression of the form:
+### A regular expression over {{< katex >}} \Sigma{{< katex >}}  is an expression of the form:
 
 
 |                |                          |
 |----------------|-------------------------------|-----------------------------|
 |a where {{< katex >}} ( a \in \Sigma ) {{< /katex >}}|`matches a`            
 |{{< katex >}} \varepsilon {{< /katex >}}|`matches an empty string`|
-|$\varnothing$|`matches ` $R_1$ or $R_2$ |
-|$R_1$$R_2$|`matches ` $R_1$$R_2$ |
-|$R^*$ where $R$ is a regular expression|`matches` $R^*$|
+|{{< katex >}} \varnothing{{< /katex >}} |`matches ` {{< katex >}} R_1{{< /katex >}}  or {{< katex >}} R_2{{< /katex >}}  |
+|{{< katex >}} R_1{{< /katex >}} {{< katex >}} R_2{{< /katex >}} |`matches ` {{< katex >}} R_1{{< /katex >}} {{< katex >}} R_2{{< /katex >}}  |
+|{{< katex >}} R^*{{< /katex >}}  where {{< katex >}} R{{< /katex >}}  is a regular expression|`matches` {{< katex >}} R^*{{< /katex >}} |
 
 ## Regular Expressions Examples
 |Regular Expression|Meaning|
 |----------------|-------------------------------|-----------------------------|
-|$z^*$|`zero or more z's`|
-|$a^*a$|`one or more a's, no other symbols {a, aa, aaa, ...}`            
-|$(a$ \| $b)^*$|`matches any string consisting of a's or b's {epsilon, a, b, ab, ba, abab, ...}`|
-|$a^*b^*$|`matches zero of more a's followed by zero or more b's {epsilon, a, b, aabb, abb, ..}`|
-|$\epsilon$ \| ($z$($z^*$))|`matches nothing or, 1 or more z's ` NOTE: The procedure is to first perform the star, then concatenate the z's, and finally union |
+|{{< katex >}} z^*{{< /katex >}} |`zero or more z's`|
+|{{< katex >}} a^*a{{< /katex >}} |`one or more a's, no other symbols {a, aa, aaa, ...}`            
+|{{< katex >}} (a{{< /katex >}}  \| {{< katex >}} b)^*{{< /katex >}} |`matches any string consisting of a's or b's {epsilon, a, b, ab, ba, abab, ...}`|
+|{{< katex >}} a^*b^*{{< /katex >}} |`matches zero of more a's followed by zero or more b's {epsilon, a, b, aabb, abb, ..}`|
+|{{< katex >}} \epsilon{{< /katex >}}  \| ({{< katex >}} z{{< /katex >}} ({{< katex >}} z^*{{< /katex >}} ))|`matches nothing or, 1 or more z's ` NOTE: The procedure is to first perform the star, then concatenate the z's, and finally union |
 
 
 
