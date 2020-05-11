@@ -4,6 +4,7 @@
 # NOTE:
 # Does not account for $'s on separate lines
 # Does not account for text like $100, texts with $
+# Does not account for $$ expression $$
 
 if [ $# -eq 0 ] 
 then
