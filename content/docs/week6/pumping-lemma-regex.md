@@ -49,7 +49,7 @@ Proof:
 	The following table is a representation of the string *w* and will be useful in the next step.
 	 
 |Length = n|Length = n|
-|----------------|----------------|-------------------------------|-----------------------------|
+|----------------|----------------|
 |0000...|1111...|
 
 3. Adversary splits {{< katex >}}w=xyz{{< /katex >}} where these **rules**, as stated previously, are followed:
@@ -70,7 +70,7 @@ Proof:
 	> Case 3 cannot happen because |xy| would be greater than *n* which violates one of three rules.
 Case 4 cannot happen because *y* cannot be empty.
 
-**Note:** **You cannot pick n, the adversary does** But for illustration purposes, let n = 3. The resulting string w = 000111
+**Note:** **You cannot pick n, the adversary does.** But for illustration purposes, let n = 3. The resulting string w = 000111
 
 |cases|x|y|z|
 |----------------|----------------|-------------------------------|-----------------------------|
