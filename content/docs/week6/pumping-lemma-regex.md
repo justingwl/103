@@ -34,7 +34,7 @@ If {{< katex >}}\forall n \geq1{{< /katex >}}, {{< katex >}}\exists w \in L{{< /
 
 If you can always do this, then L is not regular.
 
-Examples
+Example Problems
 ---
 
 #### Example 1 of pumping lemma: counting
