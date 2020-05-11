@@ -60,13 +60,13 @@ Proof:
 
 	Because the length of xy must be less than or equal to n, we can only split the string *w* in 2 ways.
 
-Case 1: *y* "covers"  both 0's and 1's
+	Case 1: *y* "covers"  both 0's and 1's
 
-Case 2: *y* "covers" only 1's
+	Case 2: *y* "covers" only 1's
 
-~~Case 3: *y* "covers"  only 0's~~
+	~~Case 3: *y* "covers"  only 0's~~
 
-~~Case 4: *y* "covers" nothing~~
+	~~Case 4: *y* "covers" nothing~~
 	> Case 3 cannot happen because |xy| would be greater than *n* which violates one of three rules.
 Case 4 cannot happen because *y* cannot be empty.
 
