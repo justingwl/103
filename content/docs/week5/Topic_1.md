@@ -1,6 +1,7 @@
 ---
 title: [What would I search for to find this]
 weight: 2
+bookhidden: ne
 ---
 
 
