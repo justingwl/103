@@ -1,6 +1,6 @@
 ## Pumping lemma for context free grammars
 ### Theorem
-If {{< katex >}}\forall P \geq1{{< /katex >}}, {{< katex >}}\exists w \in L{{< /katex >}} with {{< katex >}}|w| \geq P{{< /katex >}} s.t for all decompositions w=uvxyz with {{< katex >}}|vxy| \leq P{{< /katex >}}  and {{< katex >}}|vy| \geq 0{{< /katex >}}, there is some {{< katex >}}k \geq 0{{< /katex >}} {{< katex >}}uv^kxy^kz{{< /katex >}} {{< katex >}}\notin{{< /katex >}} L, then L is not regular.
+If {{< katex >}}\forall P \geq1{{< /katex >}}, {{< katex >}}\exists w \in L{{< /katex >}} with {{< katex >}}|w| \geq P{{< /katex >}} s.t for all decompositions w=uvxyz with {{< katex >}}|vxy| \leq P{{< /katex >}}  and {{< katex >}}|vy| \geq 0{{< /katex >}}, there is some {{< katex >}}k \geq 0{{< /katex >}} {{< katex >}}uv^kxy^kz{{< /katex >}} {{< katex >}}\notin{{< /katex >}} L, then L is not context free.
 
 > In other words, there exists a pumping length {{< katex >}}P{{< /katex >}} that is greater than 1. For all strings w that is in the language L with a length |w| greater than $P$, you can split into 5 parts {{< katex >}}w = uvxyz{{< /katex >}} in a way that the following must be true:
 > 1. {{< katex >}}vy{{< /katex >}} cannot both be empty
