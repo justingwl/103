@@ -40,7 +40,7 @@ Proof:
 	Furthermore, because {{< katex >}}|vy| \geq0{{< /katex >}},  either {{< katex >}}v{{< /katex >}} or {{< katex >}}y{{< /katex >}} must contain a character. 
     
     There are no restrictions on {{< katex >}}u{{< /katex >}} and {{< katex >}}z{{< /katex >}}
-    
+
 	Here are a few possible ways this string {{< katex >}}w{{< /katex >}} can be split, there are many more:
 
 |cases|u|v|x|y|z
@@ -61,11 +61,11 @@ Proof:
 	Let {{< katex >}}k=2{{< /katex >}}, then
 
 	For example, apply {{< katex >}}k=2{{< /katex >}} to case 1
-	
-	For each of these above cases, if you apply {{< katex >}}k=2{{< /katex >}},   {{< katex >}}uv^2xy^2z \notin L{{< /katex >}}
 
 |cases|u|{{< katex >}}v^2{{< /katex >}}|x|{{< katex >}}y^2{{< /katex >}}|z
 |-|-|-|-|-|-|
 |1|000|11|1|11|222|
+	
+	For each of these above cases, if you apply {{< katex >}}k=2{{< /katex >}},   {{< katex >}}uv^2xy^2z \notin L{{< /katex >}}
 
 To generalize this, you can say that {{< katex >}}uv^ky^kz{{< /katex >}} is not in the language L because we cannot simultaneously increase 0,1,2 {{< katex >}}k{{< /katex >}} which means we get a different number of 0's, 1's, or 2's
