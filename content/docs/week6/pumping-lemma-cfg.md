@@ -2,7 +2,7 @@
 ### Theorem
 If {{< katex >}}\forall P \geq1{{< /katex >}}, {{< katex >}}\exists w \in L{{< /katex >}} with {{< katex >}}|w| \geq P{{< /katex >}} s.t for all decompositions w=uvxyz with {{< katex >}}|vxy| \leq P{{< /katex >}}  and {{< katex >}}|vy| \geq 0{{< /katex >}}, there is some {{< katex >}}k \geq 0{{< /katex >}} {{< katex >}}uv^kxy^kz{{< /katex >}} {{< katex >}}\notin{{< /katex >}} L, then L is not regular.
 
-> In other words, there exists a pumping length {{< katex >}}P{{< /katex >}} that is greater than 1. For all strings w that is in the language L with a length |w| greater than p, you can split into 5 parts {{< katex >}}w = uvxyz{{< /katex >}} in a way that the following must be true:
+> In other words, there exists a pumping length {{< katex >}}P{{< /katex >}} that is greater than 1. For all strings w that is in the language L with a length |w| greater than $P$, you can split into 5 parts {{< katex >}}w = uvxyz{{< /katex >}} in a way that the following must be true:
 > 1. {{< katex >}}vy{{< /katex >}} cannot both be empty
 > 2. The length of {{< katex >}}vxy\leq P{{< /katex >}}
 > 2. {{< katex >}}uv^ky^kz{{< /katex >}}  is in the language L for every {{< katex >}}k{{< /katex >}}
@@ -66,6 +66,6 @@ Proof:
 |-|-|-|-|-|-|
 |1|000|11|1|11|222|
 	
-For each of these above cases, if you apply {{< katex >}}k=2{{< /katex >}},   {{< katex >}}uv^2xy^2z \notin L{{< /katex >}}
+For each of the cases above, if you apply {{< katex >}}k=2{{< /katex >}},   {{< katex >}}uv^2xy^2z \notin L{{< /katex >}}
 
 To generalize this, you can say that {{< katex >}}uv^ky^kz{{< /katex >}} is not in the language L because we cannot simultaneously increase 0,1,2 {{< katex >}}k{{< /katex >}} times which means we get a different number of 0's, 1's, or 2's
