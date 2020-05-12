@@ -1,0 +1,63 @@
+## Pumping lemma for context free grammars
+### Theorem
+If $\forall P \geq1$, $\exists w \in L$ with $|w| \geq P$ s.t for all decompositions w=uvxyz with $|vxy| \leq P$  and $|vy| \geq 0$, there is some $k \geq 0$ $uv^kxy^kz$ $\notin$ L, then L is not regular.
+
+> In other words, there exists a pumping length $P$ that is greater than 1. For all strings w that is in the language L with a length |w| greater than p, you can split into 5 parts $w = uvxyz$ in a way that the following must be true:
+> 1. $vy$ cannot both be empty
+> 2. The length of $vxy\leq P$
+> 2. $uv^ky^kz$  is in the language L for every $k$
+
+
+### Steps to prove that a Language is not Context Free (Contrapositive):
+ 1) Adversary picks an arbitrary $P \geq 1$
+2) You design a string $w\in L$ with $|w| >= P$
+3) Adversary splits $w=uvxyz$ with $|vy| >= 0$ and $|vxy| \leq P$
+4) You pick k >= 0 such that $uv^ky^kz \notin L$ 
+
+If you can always do this, then L is not context free.
+
+Examples
+---
+
+#### Example 1 of pumping lemma 
+$A = \lbrace0^n1^n2^n \vert n >= 0\rbrace = \lbrace \epsilon, 012, 001122, 000111222\rbrace$
+Proof:
+1) **Adversary picks an arbitrary $P \geq 1$**
+2) **You design a string $w\in L$ with $|w| >= P$**
+	We pick a string $w$ according to the pumping length P that the adversary picked.
+	Pick $w = 0^P1^P2^P$ 
+3) **Adversary splits $w$ into 5 parts, $w=uvxyz$, while following the rules below:**
+	- $|vy| > 0$
+	-  $|vxy| \leq P$
+	
+	**Note:**  **You cannot pick P, the adversary picks P.** But for illustration purposes, let $P = 3$. The resulting string $w$ = 000111222
+	Because $|vxy| \leq P \leq 3$ , $vy$ cannot contain both 0,1,2 simultaneously. 
+	Furthermore, because $|vy| \geq0$,  either $v$ or $y$ must contain a character. There are no restrictions on $u$ and $z$
+	Here are a few possible ways this string $w$ can be split, there are many more:
+
+|cases|u|v|x|y|z
+|-|-|-|-|-|-|
+|1|000|1|1|1|222|
+|2|00011|1|2|2|2|
+|3|0|0|0|1|11222|
+|4|000||1|11|222|
+|5|000|1|11||222|
+|6|0001|1|1||222|
+|7|0001|11|||222|
+|8|00011|1|||222|
+|9|000111|2|2|2||
+|10|00011122|||2||
+|11|00011122|2||||
+
+4) **You pick k >= 0 such that $uv^ky^kz \notin L$**
+	Let $k=2$, then
+
+	For example, apply $k=2$ to case 1
+	
+	For each of these above cases, if you apply $k=2$,   $uv^2xy^2z \notin L$
+
+|cases|u|$v^2$|x|$y^2$|z
+|-|-|-|-|-|-|
+|1|000|11|1|11|222|
+
+To generalize this, you can say that $uv^ky^kz$ is not in the language L because we cannot simultaneously increase 0,1,2 $k$ which means we get a different number of 0's, 1's, or 2's

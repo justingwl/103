@@ -58,7 +58,7 @@ Proof:
 	-  The length of xy is  {{< katex >}}\leq n{{< /katex >}}
 	- {{< katex >}}xy^kz{{< /katex >}}  is in the Language  L(A)  for every  {{< katex >}}k{{< /katex >}}
 
-	Because the length of xy must be less than or equal to n, we can only split the string *w* in 2 ways.
+	Because the length of xy must be less than or equal to n, the adversary can only split the string *w* in 2 ways.
 
 	Case 1: *y* "covers"  both 0's and 1's
 
