@@ -66,6 +66,6 @@ Proof:
 |-|-|-|-|-|-|
 |1|000|11|1|11|222|
 	
-	For each of these above cases, if you apply {{< katex >}}k=2{{< /katex >}},   {{< katex >}}uv^2xy^2z \notin L{{< /katex >}}
+For each of these above cases, if you apply {{< katex >}}k=2{{< /katex >}},   {{< katex >}}uv^2xy^2z \notin L{{< /katex >}}
 
 To generalize this, you can say that {{< katex >}}uv^ky^kz{{< /katex >}} is not in the language L because we cannot simultaneously increase 0,1,2 {{< katex >}}k{{< /katex >}} times which means we get a different number of 0's, 1's, or 2's
