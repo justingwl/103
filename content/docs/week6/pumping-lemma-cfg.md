@@ -21,6 +21,7 @@ Examples
 
 #### Example 1 of pumping lemma 
 {{< katex >}}A = \lbrace0^n1^n2^n \vert n >= 0\rbrace = \lbrace \epsilon, 012, 001122, 000111222\rbrace{{< /katex >}}
+
 Proof:
 1) **Adversary picks an arbitrary {{< katex >}}P \geq 1{{< /katex >}}**
 2) **You design a string {{< katex >}}w\in L{{< /katex >}} with {{< katex >}}|w| >= P{{< /katex >}}**
@@ -30,9 +31,16 @@ Proof:
 	- {{< katex >}}|vy| > 0{{< /katex >}}
 	-  {{< katex >}}|vxy| \leq P{{< /katex >}}
 	
-	**Note:**  **You cannot pick P, the adversary picks P.** But for illustration purposes, let {{< katex >}}P = 3{{< /katex >}}. The resulting string {{< katex >}}w{{< /katex >}} = 000111222
+	**Note:**  **You cannot pick P, the adversary picks P.** 
+    
+    For illustration purposes, let {{< katex >}}P = 3{{< /katex >}}. The resulting string {{< katex >}}w{{< /katex >}} = 000111222
+
 	Because {{< katex >}}|vxy| \leq P \leq 3{{< /katex >}} , {{< katex >}}vy{{< /katex >}} cannot contain both 0,1,2 simultaneously. 
-	Furthermore, because {{< katex >}}|vy| \geq0{{< /katex >}},  either {{< katex >}}v{{< /katex >}} or {{< katex >}}y{{< /katex >}} must contain a character. There are no restrictions on {{< katex >}}u{{< /katex >}} and {{< katex >}}z{{< /katex >}}
+
+	Furthermore, because {{< katex >}}|vy| \geq0{{< /katex >}},  either {{< katex >}}v{{< /katex >}} or {{< katex >}}y{{< /katex >}} must contain a character. 
+    
+    There are no restrictions on {{< katex >}}u{{< /katex >}} and {{< katex >}}z{{< /katex >}}
+    
 	Here are a few possible ways this string {{< katex >}}w{{< /katex >}} can be split, there are many more:
 
 |cases|u|v|x|y|z

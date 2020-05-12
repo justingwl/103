@@ -39,6 +39,7 @@ Example Problems
 
 #### Example 1 of pumping lemma: counting
 A = {{{< katex >}}0^m{{< /katex >}}{{< katex >}}1^m{{< /katex >}} | m >= 0} = {{{< katex >}}\epsilon{{< /katex >}}, 01, 0011, 000111}
+
 Proof:
 1. Adversary picks *n*
 2.  We pick a string *w* according to what the adversary picked
