@@ -1,6 +1,6 @@
 ---
 title: PDA
-weight: 1
+weight: 2
 ---
 
 # Push Down Automata

@@ -1,5 +1,5 @@
 ---
-title: PDA intro
+title: PDA Intro
 weight: 1
 ---
 # Push Down Automata
