@@ -1,3 +1,8 @@
+---
+title: Regex Intro
+weight: 1
+---
+
 # 2020 04 15: Basics of Regular Expressions
 
 ## Definition

@@ -1,3 +1,8 @@
+---
+title: Regex Pumping Lemma
+weight: 2
+---
+
 # How to use the pumping lemma
 
 The pumping lemma can only be used to prove that is language is **not regular**. **It cannot be used to prove that a language is regular.**
