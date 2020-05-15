@@ -4,7 +4,7 @@ weight: 1
 ---
 # Push Down Automata
 
-[Lecture 04 29]([https://canvas.ucsc.edu/courses/32038/files/2262788?module_item_id=181955](https://canvas.ucsc.edu/courses/32038/files/2262788?module_item_id=181955))
+[Lecture 04 29](https://canvas.ucsc.edu/courses/32038/files/2262788?module_item_id=181955)
 - PDA example
 - PDA definition
 - PDA accept definition
