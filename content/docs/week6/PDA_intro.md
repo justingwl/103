@@ -12,7 +12,7 @@ weight: 1
 	- Proof: Given a CFG for L, construct a PDA
 	- Proof: Given a PDA P for L, construct a CFG
 
-## Definiton
+## PDA Definition
 A PDA (nondeterministic by default) is a 6-tuple {{< katex >}}(Q, \Sigma, \Gamma, \delta, q_0, F){{< /katex >}} where:
 - Q is a finite set of states
 - {{< katex >}}\Sigma{{< /katex >}} is a finite input alphabet
@@ -23,7 +23,7 @@ A PDA (nondeterministic by default) is a 6-tuple {{< katex >}}(Q, \Sigma, \Gamma
 - {{< katex >}}q_0 \in Q{{< /katex >}} is the start state
 - {{< katex >}}F \subset Q{{< /katex >}} is the set of accepting states
 
-# Summary
+## Summary
 - Can have multiple transitions for a single input
 - The Stack does not need to be empty for the PDA to accept
 - Deterministic PDA's **are not as powerful** as nondeterministic, unlike NFAs which are equivalent to DFAs

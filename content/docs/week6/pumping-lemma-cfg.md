@@ -2,7 +2,7 @@
 title: CFG Pumping Lemma
 weight: 3
 ---
-## Pumping lemma for context free grammars
+# Pumping lemma for context free grammars
 ### Theorem
 If {{< katex >}}\forall P \geq1{{< /katex >}}, {{< katex >}}\exists w \in L{{< /katex >}} with {{< katex >}}|w| \geq P{{< /katex >}} s.t for all decompositions w=uvxyz with {{< katex >}}|vxy| \leq P{{< /katex >}}  and {{< katex >}}|vy| \geq 0{{< /katex >}}, there is some {{< katex >}}k \geq 0{{< /katex >}} {{< katex >}}uv^kxy^kz{{< /katex >}} {{< katex >}}\notin{{< /katex >}} L, then L is not context free.
 
