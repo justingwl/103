@@ -1,3 +1,7 @@
+---
+title: Regex Pumping Lemma
+weight: 1
+---
 # Models
 
 Regular Expressions describe regular languages
