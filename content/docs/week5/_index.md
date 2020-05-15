@@ -1,7 +1,6 @@
 ---
 bookCollapseSection: false
 weight: 20
-bookhidden: true
 ---
 
 # Week 5 Topics
