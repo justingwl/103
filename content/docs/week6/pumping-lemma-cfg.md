@@ -1,6 +1,6 @@
 ---
 title: CFG Pumping Lemma
-weight: 2
+weight: 3
 ---
 ## Pumping lemma for context free grammars
 ### Theorem
