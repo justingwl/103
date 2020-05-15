@@ -1,0 +1,38 @@
+---
+title: TM Definitions
+weight: 2
+---
+# Turing Machine
+
+[Lecture 05 11]([[[https://canvas.ucsc.edu/courses/32038/files/folder/lecture_notes?preview=2334029](https://canvas.ucsc.edu/courses/32038/files/folder/lecture_notes?preview=2334029)](https://canvas.ucsc.edu/courses/32038/files/2277330?module_item_id=182891)](https://canvas.ucsc.edu/courses/32038/files/2262788?module_item_id=181955))
+
+- TM Example
+- TM Definition
+- TM Configuration Definition
+
+
+## Definition
+A Turing Maching is a 7-tuple  $(Q, \Sigma, \Gamma, \delta, q_0, F)$ where:
+- Q is a finite set of **states**
+- $\Sigma$ is a finite **input alphabet** (not containing the blank symbol _ )
+- $\Gamma$ is a **tape alphabet** (with _ $\in\Gamma$ and $\Sigma \subset \Gamma$)
+- $\delta : Q \times \Gamma ->Q\times\Gamma\times\{L,R\}$
+		- $Q$: Current state
+		- $\Gamma$: symbol at head
+		- >
+		- $Q$: Next state
+		- $\Gamma$: Symbol to write at head
+		- $\{L,R\}:$ Direction to move the head
+- $q_0 \in Q$ is the **start state**
+- $q_{accept} \in Q$ is the **accept state**
+- $q_{reject} \in Q$ is the **reject state** ($q_{accept} \neq q_{reject}$)
+
+Note: Various changes to this definition does not change the power of the TM.
+1. Allowing the head to stay in place
+2. having more than one tape (ex: a separate "work tape" to avoid overwriting the input)
+
+## Definition
+A configuration of a TM is a triple (x,q,y) written *xqy* where:
+- $x \in \Gamma^*$ is the contents of the tape to the left of the head
+- $q \in Q$ is the current state
+- $y \in \Gamma^*$ is the contents of the tape which includes the head and everything to the right of it

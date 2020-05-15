@@ -1,0 +1,15 @@
+---
+title: TM: Intro
+weight: 2
+---
+
+# Turing Machines
+
+[Lecture 05 08]([[[https://canvas.ucsc.edu/courses/32038/files/folder/lecture_notes?preview=2320492](https://canvas.ucsc.edu/courses/32038/files/folder/lecture_notes?preview=2320492)](https://canvas.ucsc.edu/courses/32038/files/2277330?module_item_id=182891)](https://canvas.ucsc.edu/courses/32038/files/2262788?module_item_id=181955))
+
+- TM intuition
+- TM example 
+
+**Computability theory:** what problems can be solved by computers?
+
+**Complexity thoery:** how hard are those to solve? i.e. how much time, money, or other resources do you need?
