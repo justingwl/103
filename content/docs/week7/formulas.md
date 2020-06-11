@@ -7,22 +7,18 @@
 
 Decidable
 
-
 Undecidable
+- HALT
 - PCP
 - {{< katex >}}A_{TM}{{< /katex >}}
 - {{< katex >}}E_{TM}{{< /katex >}}
-
 - {{< katex >}}A_{DFA}{{< /katex >}}
-
-Co-RE
-- E_TM
 
 RE
 - HALT
 
-NP-hard
-- SAT
+Co-RE
+- E_TM
 
 **NOT** RE (Turing Recognizable)
 - {{< katex >}}\overline{HALT}{{< /katex >}}
@@ -129,6 +125,3 @@ If {{< katex >}}A \leq_p B{{< /katex >}}, {{< katex >}}A{{< /katex >}} is NP-har
 CLIQUE is NP-complete
 
 SAT is NP-complete
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODE0MzMyNTJdfQ==
--->
